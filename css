@@ -1,5 +1,17 @@
-<section>
-    <header></header>
-    <div class="content"></div>
-</section>
-<page></page>
+section{
+    padding:6px;
+}
+section header{
+    text-align:center;
+    font-weight:bold;
+    font-family: 'Comic Sans';
+    color:white;
+}
+section .content{
+    text-indent:25px;
+    border-radius:4px;
+    padding:16px;
+    margin:2px;
+    background-color: rgba(190,190,190,0.45);
+    box-shadow: 1px 1px 1px rgba(204,204,204,0.75);
+}
